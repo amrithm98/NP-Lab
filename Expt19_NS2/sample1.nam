@@ -1,0 +1,10 @@
+n -t * -s 0  -x 200 -y 100 -Z 0 -z 30  -v circle -c black
+n -t * -s 1  -x 200 -y 300 -Z 0 -z 30  -v circle -c black
+V -t * -v 1.0a5 -a 0
+W -t * -x 500 -y 400
+A -t * -n 1 -p 0 -o 0x7fffffff -c 30 -a 1
+A -t * -h 1 -m 1073741823 -s 0
+n -t 0.1 -s 0 -S COLOR -c blue -o black -i blue -I black
+n -t 0.10000000000000001 -s 0 -S DLABEL -l "Node1" -L ""
+n -t 0.10000000000000001 -s 1 -S DLABEL -l "Node2" -L ""
+W -t 10.0
